@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Food</title>
+  </head>
+  <body>
+    <header>
+      <img
+        src="./images/logo.png"
+        alt="logo"
+        class="logo"
+        onclick="window.location.href='#home'"
+      />
+      <nav>
+        <ul class="links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#gallary">Gallery </a></li>
+          <li><a href="#review">Review</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="icons">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-heart"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-left">
+        <h1>
+          Get Fresh <span style="color: #fac031">Food</span><br />
+          in a Easy Way
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores vel
+          fugiat illo vero, quaerat recusandae tenetur eum maiores inventore id,
+          obcaecati quisquam! Neque harum, mollitia quis ullam earum architecto
+          eaque id. Quos facilis reprehenderit quo provident iure? Odio
+          reiciendis blanditiis tempore non vel doloribus libero! Cupiditate
+          maxime nemo dolore autem.
+        </p>
+        <button>Order Now <i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+      <div class="hero-right">
+        <img src="./images/main_img.png" alt="burger" />
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-us" id="about">
+      <div class="about-us-left">
+        <img src="./images/Food-Plate.png" alt="food-plate" />
+      </div>
+      <div class="about-us-right">
+        <h1><span style="color: #fac031">About</span> Us</h1>
+        <h2>Why choose us?</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+          corporis similique eveniet minus praesentium aliquid doloribus
+          incidunt eum maxime dolorum ut nisi sit aut eos id explicabo libero
+          rem corrupti, ea magni accusamus tempore totam! Explicabo id
+          architecto tempore, error, fugiat quod cupiditate ullam odio quam
+          tempora iste a ut.
+        </p>
+        <button>Order Now <i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+      <h1>
+        Our
+        <span style="color: #fac031; text-decoration: underline"
+          ><em>Menu</em></span
+        >
+      </h1>
+      <div class="products">
+        <div>
+          <div
+            class="food-image"
+            style="
+              background-image: url('./images/biryani.webp');
+              background-position: center;
+              background-size: cover;
+            "
+          ></div>
+          <h4 class="food-name">Biryani</h4>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In eius
+            impedit similique odit, iste molestiae. Beatae accusamus dicta illum
+            quo modi quis magnam fuga ab voluptatum. Animi soluta cum
+            recusandae!
+          </p>
+          <p class="price">$20.00</p>
+          <div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+          </div>
+          <button>Order Now</button>
+        </div>
+        <div>
+          <div
+            class="food-image"
+            style="
+              background-image: url('./images/buger.jpg');
+              background-position: center;
+              background-size: cover;
+            "
+          ></div>
+          <h4 class="food-name">Burger</h4>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In eius
+            impedit similique odit, iste molestiae. Beatae accusamus dicta illum
+            quo modi quis magnam fuga ab voluptatum. Animi soluta cum
+            recusandae!
+          </p>
+          <p class="price">$20.00</p>
+          <div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+          </div>
+          <button>Order Now</button>
+        </div>
+        <div>
+          <div
+            class="food-image"
+            style="
+              background-image: url('./images/cake.jpg');
+              background-position: center;
+              background-size: cover;
+            "
+          ></div>
+          <h4 class="food-name">Cake</h4>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In eius
+            impedit similique odit, iste molestiae. Beatae accusamus dicta illum
+            quo modi quis magnam fuga ab voluptatum. Animi soluta cum
+            recusandae!
+          </p>
+          <p class="price">$20.00</p>
+          <div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+          </div>
+          <button>Order Now</button>
+        </div>
+        <div>
+          <div
+            class="food-image"
+            style="
+              background-image: url('./images/chocolate.jpg');
+              background-position: center;
+              background-size: cover;
+            "
+          ></div>
+          <h4 class="food-name">Chocolate</h4>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In eius
+            impedit similique odit, iste molestiae. Beatae accusamus dicta illum
+            quo modi quis magnam fuga ab voluptatum. Animi soluta cum
+            recusandae!
+          </p>
+          <p class="price">$20.00</p>
+          <div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+          </div>
+          <button>Order Now</button>
+        </div>
+        <div>
+          <div
+            class="food-image"
+            style="
+              background-image: url('./images/chocolate_Drink.jpg');
+              background-position: center;
+              background-size: cover;
+            "
+          ></div>
+          <h4 class="food-name">Chocolate Drink</h4>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In eius
+            impedit similique odit, iste molestiae. Beatae accusamus dicta illum
+            quo modi quis magnam fuga ab voluptatum. Animi soluta cum
+            recusandae!
+          </p>
+          <p class="price">$20.00</p>
+          <div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+          </div>
+          <button>Order Now</button>
+        </div>
+        <div>
+          <div
+            class="food-image"
+            style="
+              background-image: url('./images/Hot_dog.jpg');
+              background-position: center;
+              background-size: cover;
+            "
+          ></div>
+          <h4 class="food-name">Hotdog</h4>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In eius
+            impedit similique odit, iste molestiae. Beatae accusamus dicta illum
+            quo modi quis magnam fuga ab voluptatum. Animi soluta cum
+            recusandae!
+          </p>
+          <p class="price">$20.00</p>
+          <div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+          </div>
+          <button>Order Now</button>
+        </div>
+        <div>
+          <div
+            class="food-image"
+            style="
+              background-image: url('./images/ice_cream.jpg');
+              background-position: center;
+              background-size: cover;
+            "
+          ></div>
+          <h4 class="food-name">Ice Cream</h4>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In eius
+            impedit similique odit, iste molestiae. Beatae accusamus dicta illum
+            quo modi quis magnam fuga ab voluptatum. Animi soluta cum
+            recusandae!
+          </p>
+          <p class="price">$20.00</p>
+          <div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+          </div>
+          <button>Order Now</button>
+        </div>
+        <div>
+          <div
+            class="food-image"
+            style="
+              background-image: url('./images/juse.jpg');
+              background-position: center;
+              background-size: cover;
+            "
+          ></div>
+          <h4 class="food-name">Juse</h4>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In eius
+            impedit similique odit, iste molestiae. Beatae accusamus dicta illum
+            quo modi quis magnam fuga ab voluptatum. Animi soluta cum
+            recusandae!
+          </p>
+          <p class="price">$20.00</p>
+          <div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+          </div>
+          <button>Order Now</button>
+        </div>
+        <div>
+          <div
+            class="food-image"
+            style="
+              background-image: url('./images/lasagna.webp');
+              background-position: center;
+              background-size: cover;
+            "
+          ></div>
+          <h4 class="food-name">Lasagna</h4>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In eius
+            impedit similique odit, iste molestiae. Beatae accusamus dicta illum
+            quo modi quis magnam fuga ab voluptatum. Animi soluta cum
+            recusandae!
+          </p>
+          <p class="price">$20.00</p>
+          <div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+          </div>
+          <button>Order Now</button>
+        </div>
+        <div>
+          <div
+            class="food-image"
+            style="
+              background-image: url('./images/pasta.jpg');
+              background-position: center;
+              background-size: cover;
+            "
+          ></div>
+          <h4 class="food-name">Pasta</h4>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In eius
+            impedit similique odit, iste molestiae. Beatae accusamus dicta illum
+            quo modi quis magnam fuga ab voluptatum. Animi soluta cum
+            recusandae!
+          </p>
+          <p class="price">$20.00</p>
+          <div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+          </div>
+          <button>Order Now</button>
+        </div>
+        <div>
+          <div
+            class="food-image"
+            style="
+              background-image: url('./images/pizza.jpg');
+              background-position: center;
+              background-size: cover;
+            "
+          ></div>
+          <h4 class="food-name">Pizza</h4>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In eius
+            impedit similique odit, iste molestiae. Beatae accusamus dicta illum
+            quo modi quis magnam fuga ab voluptatum. Animi soluta cum
+            recusandae!
+          </p>
+          <p class="price">$20.00</p>
+          <div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+          </div>
+          <button>Order Now</button>
+        </div>
+        <div>
+          <div
+            class="food-image"
+            style="
+              background-image: url('./images/sandwich.jpg');
+              background-position: center;
+              background-size: cover;
+            "
+          ></div>
+          <h4 class="food-name">Sandwich</h4>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In eius
+            impedit similique odit, iste molestiae. Beatae accusamus dicta illum
+            quo modi quis magnam fuga ab voluptatum. Animi soluta cum
+            recusandae!
+          </p>
+          <p class="price">$20.00</p>
+          <div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+          </div>
+          <button>Order Now</button>
+        </div>
+        <div>
+          <div
+            class="food-image"
+            style="
+              background-image: url('./images/Spanchi.jpg');
+              background-position: center;
+              background-size: cover;
+            "
+          ></div>
+          <h4 class="food-name">Spanchi</h4>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In eius
+            impedit similique odit, iste molestiae. Beatae accusamus dicta illum
+            quo modi quis magnam fuga ab voluptatum. Animi soluta cum
+            recusandae!
+          </p>
+          <p class="price">$20.00</p>
+          <div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+          </div>
+          <button>Order Now</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallary Section -->
+
+    <section class="gallary" id="gallary">
+      <h1>
+        Our
+        <span style="color: #fac031; text-decoration: underline"
+          ><em>Gallary</em></span
+        >
+      </h1>
+      <div class="gallary-image">
+        <div
+          style="
+            background-image: url('./images/gallary_1.jpg');
+            background-position: center;
+            background-size: cover;
+          "
+        ></div>
+        <div
+          style="
+            background-image: url('./images/gallary_2.jpg');
+            background-position: center;
+            background-size: cover;
+          "
+        ></div>
+        <div
+          style="
+            background-image: url('./images/gallary_3.jpg');
+            background-position: center;
+            background-size: cover;
+          "
+        ></div>
+        <div
+          style="
+            background-image: url('./images/gallary_4.jpg');
+            background-position: center;
+            background-size: cover;
+          "
+        ></div>
+        <div
+          style="
+            background-image: url('./images/gallary_5.jpg');
+            background-position: center;
+            background-size: cover;
+          "
+        ></div>
+        <div
+          style="
+            background-image: url('./images/gallary_6.jpg');
+            background-position: center;
+            background-size: cover;
+          "
+        ></div>
+      </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="review" id="review">
+      <h1>
+        Customer
+        <span style="color: #fac031; text-decoration: underline"
+          ><em>Reviews</em></span
+        >
+      </h1>
+      <div class="reviews">
+        <div>
+          <div
+            style="
+              background-image: url('./images/review_1.png');
+              background-position: center;
+              background-size: cover;
+            "
+            class="review-image"
+          ></div>
+          <h3>John Deo</h3>
+          <div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+          </div>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex ullam
+            fugit odit perspiciatis placeat eaque repudiandae delectus esse
+            ratione assumenda eum exercitationem, quasi nemo inventore non nisi.
+            Praesentium velit ut magni ullam corporis assumenda vel, deleniti,
+            repudiandae quis consequuntur fuga?
+          </p>
+        </div>
+        <div>
+          <div
+            style="
+              background-image: url('./images/review_2.png');
+              background-position: center;
+              background-size: cover;
+            "
+            class="review-image"
+          ></div>
+          <h3>John Deo</h3>
+          <div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+          </div>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex ullam
+            fugit odit perspiciatis placeat eaque repudiandae delectus esse
+            ratione assumenda eum exercitationem, quasi nemo inventore non nisi.
+            Praesentium velit ut magni ullam corporis assumenda vel, deleniti,
+            repudiandae quis consequuntur fuga?
+          </p>
+        </div>
+        <div>
+          <div
+            style="
+              background-image: url('./images/review_3.png');
+              background-position: center;
+              background-size: cover;
+            "
+            class="review-image"
+          ></div>
+          <h3>John Deo</h3>
+          <div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+          </div>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex ullam
+            fugit odit perspiciatis placeat eaque repudiandae delectus esse
+            ratione assumenda eum exercitationem, quasi nemo inventore non nisi.
+            Praesentium velit ut magni ullam corporis assumenda vel, deleniti,
+            repudiandae quis consequuntur fuga?
+          </p>
+        </div>
+        <div>
+          <div
+            style="
+              background-image: url('./images/review_4.png');
+              background-position: center;
+              background-size: cover;
+            "
+            class="review-image"
+          ></div>
+          <h3>John Deo</h3>
+          <div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+          </div>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex ullam
+            fugit odit perspiciatis placeat eaque repudiandae delectus esse
+            ratione assumenda eum exercitationem, quasi nemo inventore non nisi.
+            Praesentium velit ut magni ullam corporis assumenda vel, deleniti,
+            repudiandae quis consequuntur fuga?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section class="contact-us" id="contact">
+      <h1>Contact Us</h1>
+      <form>
+        <label for="name">Name</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="ex. Juan Dela Cruz"
+        />
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="ex. juandelacruz@mail.com"
+          required
+        />
+        <label for="message">Message</label>
+        <textarea name="message" id="message" required></textarea>
+        <button>Send a message <i class="fa-solid fa-envelope"></i></button>
+      </form>
+    </section>
+  </body>
+  <!-- Footer Section -->
+  <footer>
+    <p>© Copyright. All rights reserved.</p>
+  </footer>
+</html>

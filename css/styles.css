@@ -1,0 +1,371 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+  border: px solid red;
+  scroll-behavior: smooth;
+}
+
+/* Nav Bar */
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 10px 0;
+  box-shadow: 0 3px 5px 1px #bdbdbd;
+  position: fixed;
+  width: 100%;
+}
+
+header > img {
+  height: 3rem;
+}
+
+header > img:hover {
+  cursor: pointer;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  gap: 1.5rem;
+  font-size: 1em;
+}
+
+.links > li > a {
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.links > li > a:hover,
+.links > li > a:active {
+  color: #fac031;
+  text-decoration: underline;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  font-size: 1.2rem;
+}
+
+.icons > i:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  color: #fac031;
+}
+
+/* Hero Section */
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 3rem;
+  background-image: url("../images/bg1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.hero > .hero-left > h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.hero > .hero-left > p {
+  margin-bottom: 20px;
+}
+
+.hero > .hero-left > button {
+  border: none;
+  border-radius: 10px;
+  color: #f9f9f9;
+  background-color: #fac031;
+  width: 20%;
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+
+.hero > .hero-left > button:hover {
+  cursor: pointer;
+  color: black;
+  background-color: #edac08;
+}
+
+/* About Us Section */
+
+.about-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  height: 100vh;
+}
+
+.about-us-right {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.about-us > .about-us-right > h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.about-us > .about-us-right > h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.about-us > .about-us-right > p {
+  margin-bottom: 20px;
+}
+
+.about-us > .about-us-right > button {
+  border: none;
+  border-radius: 10px;
+  color: #f9f9f9;
+  background-color: #fac031;
+  width: 20%;
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+
+.about-us > .about-us-right > button:hover {
+  cursor: pointer;
+  color: black;
+  background-color: #edac08;
+}
+
+.about-us > .about-us-left > img {
+  height: 600px;
+}
+
+/* Menu Section */
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  padding: 30px;
+}
+
+.menu > h1 {
+  font-size: 3rem;
+}
+
+.menu > .products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1em;
+}
+
+.menu > .products > div {
+  border: 1px solid #bdbdbd;
+  padding: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 1px 3px 5px 1px #bdbdbd;
+  transition: 0.1s ease-out;
+}
+
+.menu > .products > div > .food-image {
+  height: 300px;
+  width: 100%;
+}
+
+.menu > .products > div > .food-name {
+  font-size: 1.5rem;
+  color: #fac031;
+}
+
+.menu > .products > div > .description {
+  font-size: 1em;
+  color: black;
+  text-align: center;
+}
+
+.menu > .products > div > .price {
+  font-size: 1.25em;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.menu > .products > div > div > i {
+  color: #fac031;
+}
+
+.menu > .products > div > button {
+  border: none;
+  border-radius: 5px;
+  background-color: #191919;
+  color: #f9f9f9;
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+
+.menu > .products > div > button:hover {
+  cursor: pointer;
+  background-color: #edac08;
+}
+
+/* Gallary Section */
+
+.gallary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  padding: 30px;
+}
+
+.gallary > h1 {
+  font-size: 3rem;
+}
+
+.gallary > .gallary-image {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+  width: 100%;
+}
+
+.gallary > .gallary-image > div {
+  width: 100%;
+  height: 400px;
+}
+
+/* Customer Reviews Section */
+
+.review {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  padding: 30px;
+}
+
+.review > h1 {
+  font-size: 3rem;
+}
+
+.review > .reviews {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1em;
+}
+
+.review > .reviews > div {
+  border: 1px solid #bdbdbd;
+  padding: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 1px 3px 5px 1px #bdbdbd;
+  transition: 0.1s ease-out;
+  text-align: center;
+}
+
+.review > .reviews > div > .review-image {
+  box-shadow: 1px 3px 10px 1px #828282;
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+}
+.review > .reviews > div > div > i {
+  color: #fac031;
+}
+
+/* Contact Us Section */
+
+.contact-us {
+  background-image: url("../images/bg2.jpg");
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.contact-us > h1 {
+  font-size: 3rem;
+}
+
+.contact-us > form {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-us > form > input {
+  padding: 10px 5px;
+  border: 1px solid #d6d6d6;
+  border-radius: 5px;
+}
+
+.contact-us > form > textarea {
+  height: 150px;
+}
+
+.contact-us > form > button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  color: #f9f9f9;
+  background-color: #fac031;
+  width: 40%;
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+
+.contact-us > form > button:hover {
+  cursor: pointer;
+  color: black;
+  background-color: #edac08;
+}
+
+/* Footer Section */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  height: 50px;
+  background-color: #1f2437;
+  color: #f9f9f9;
+}
